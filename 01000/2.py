@@ -17,6 +17,7 @@ for i in range(int(input())):
       print(f'Command #{i}: "{b[1]}"')
     else:
       print(f'Command #{i}: "{b[1][0:c]+b[-2]+b[1][c+int(len(b[-4])):]}"')
+#https://judge.hkoi.org/submission/1162510/details?sharing=x7KMkJMhunFRtH5Fx0VAyPY6OU
 #提交 1162510
 #評測結果 12.500
 #子任務	測試	結果	執行時間	記憶體	分數
