@@ -18,6 +18,7 @@ for i in range(1,int(input())+1):
     else:
       print(f'Command #{i}: "{b[1][0:c+1]+b[-2]+b[1][c+int(len(b[-2]))+1:]}"')
 #https://judge.hkoi.org/submission/1162064/details?sharing=IApE6SGrugAhk9S3fZLoDzWdA
+#2024-05-10 12:49:15
 #評測結果
 #子任務	測試	結果	執行時間	記憶體	分數
 #1	1	正確	0.013 s	8.355 MB	100.000
